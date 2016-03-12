@@ -1,0 +1,144 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+a:focus{
+	outline: none;
+}
+.logo{
+	padding:0;
+}
+.navbar .hgt{
+	height:75px;
+}
+#navbar-collapse ul{
+	margin-top:12.5px;
+}
+.button{
+	height:60px;
+	padding:4px;
+}
+
+.tab1{
+	background: #eee;
+	padding:40px 20px;
+	text-align: center;
+}
+.tab1 img{
+	width:40%;
+	height:40%;
+}
+.tab2{
+	padding:40px 20px;
+	text-align: center;
+}
+.tab2 img{
+	width:40%;
+	height:40%;
+}
+.text h3{
+	font-size: 20px;
+}
+.text p{
+	font-size: 14px;
+}
+
+.jumbotron{
+	margin: 50px 0 0 0;
+	padding:60px 0;
+	background: #ccc url(../img/bg.jpg);
+	color:#ccc;
+}
+.jumbotron h1{
+	font-size: 26px;
+	padding:0 0 0 20px;
+}
+.jumbotron h4{
+	font-size: 16px;
+	padding:0 0 0 20px;
+}
+.jumbotron .center{
+	text-align: center;
+}
+#footer{
+	padding:20px;
+	text-align: center;
+	background-color: #666;
+	border-top:1px solid #ccc;
+	color:#eee;
+}
+
+
+/* 小屏幕（平板，大于等于768px） */
+@media(min-width:768px){
+	.text h3{
+		font-size: 22px;
+	}
+	.text p{
+		font-size: 15px;
+	}
+	.tab1-text{
+		float: left;
+	}
+	.tab1-img{
+		float: right;
+	}
+	.jumbotron h1{
+		font-size: 30px;
+		padding:0 0 0 20px;
+	}
+	.jumbotron h4{
+		font-size: 16px;
+		padding:0 0 0 20px;
+	}
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width:992px) {
+	.text h3{
+		font-size: 24px;
+	}
+	.text p{
+		font-size: 16px;
+	}
+	.tab1-text {
+		float: left;
+	}
+	.tab1-img {
+		float: right;
+	}
+	.jumbotron h1{
+		font-size: 33px;
+		padding:0 0 0 20px;
+	}
+	.jumbotron h4{
+		font-size: 17px;
+		padding:0 0 0 20px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.text h2{
+		font-size: 26px;
+	}
+	.text p{
+		font-size: 18px;
+	}
+	.tab1-text{
+		float: left;
+	}
+	.tab1-img{
+		float: right;
+	}
+	.jumbotron h1{
+		font-size: 36px;
+		padding:0 0 0 20px;
+	}
+	.jumbotron h4{
+		font-size: 18px;
+		padding:0 0 0 20px;
+	}
+}
+
